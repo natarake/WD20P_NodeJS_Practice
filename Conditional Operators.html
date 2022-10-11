@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Operators</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        a = 8;
+        b = 6;
+        c = a > b ? "yes" : "no"
+        document.write(c+" it's greater")
+
+        // d = 8;
+        // e = 6;
+        // f = d > e ? "yes" : "no"
+        // alert(f);
+
+        const hour = new Date().getHours()
+
+        let greeting;
+        if (hour < 18) {
+            greeting = "Good Day!";
+        } else {
+            greeting = "Good Evening!";
+        }
+        document.getElementById("demo").innerHTML = greeting;
+
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+        }
+
+        // person is an object, firstName etc is property, then property value
+    </script>
+</body>
+</html>
