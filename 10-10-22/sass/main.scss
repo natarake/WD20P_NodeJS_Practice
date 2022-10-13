@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary: purple;
+$warning: brown;
+$modal-backdrop-bg: lightgreen;
+
+$glenn-theme-colors: (
+  "cool": pink,
+  "ces": cyan,
+);
+
+$theme-colors: map-merge($glenn-theme-colors, $theme-colors);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

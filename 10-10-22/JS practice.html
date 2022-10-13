@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My first web page</h1>
+    <p>My first paragraph</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+
+    <button type="button" onclick="myFunction ()">Try it</button>
+    <button onclick="window.print()">Print this page</button>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+      document.write(5 + 6);
+      //   window.alert(5 + 6);
+      let x, y;
+      x = "6";
+      y = "9";
+      let z = x + y;
+      document.getElementById("demo1").innerHTML = "The value of z is " + z;
+
+      var a = 5;
+      var b = 2;
+      var c = a * b;
+      document.getElementById("demo2").innerHTML = c;
+
+      let d = 5;
+      let e = 2;
+      let f = d + e;
+      document.getElementById("demo3").innerHTML = f;
+
+      let g = 5;
+      let h = 2;
+      let i = g - h;
+      document.getElementById("demo4").innerHTML = i;
+
+      let $ = "Hello, world!";
+      let $$$ = 2;
+      let $myMoney = 5;
+      let $$ = $ + $$$ + $myMoney;
+      document.getElementById("demo5").innerHTML = $$;
+
+      var n = 2;
+      var o = 5;
+      var p = o % n;
+      document.getElementById("demo6").innerHTML = p;
+
+      let k = 5;
+      let l = 2;
+      let m = k / l;
+      document.getElementById("demo7").innerHTML = m;
+
+      let q = 5;
+      let _inc = q++;
+      document.getElementById("demo8").innerHTML = q;
+
+      let r = 5;
+      let _dec = r--;
+      document.getElementById("demo9").innerHTML = r;
+
+
+    </script>
+  </body>
+</html>

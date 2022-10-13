@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10-11-22</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <h1>WD20P Converter</h1>
+        <input type="text" id="input1" onkeyup="autoConvert()" />
+        <input type="text" id="input2" disabled />
+        <!-- <button type="button" id="button1" onclick="alert(myFunction2());"> -->
+          Convert
+        </button>
+
+        <div class="buttonContainer">
+          <button type="button" id="button2" onclick="handleConvert();">
+            Convert
+          </button>
+          <button type="button" id="button3" onclick="clearFields();">
+            Clear
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
